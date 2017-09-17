@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+	<title>My Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<h1>The Crystal Collector Game!</h1>
+	<br>
+	<br>
+	<div id="images">
+		<img src="assets/images/diamond.jpg" id="diamond-pic" class="crystalstyle">
+		<img src="assets/images/sapphire.jpg" id="sapphire-pic" class="crystalstyle">
+		<img src="assets/images/emerald.jpg" id="emerald-pic" class="crystalstyle">
+		<img src="assets/images/ruby.jpg" id="ruby-pic" class="crystalstyle">
+	</div>
+	<br>
+	<h2>The Rules of the Game: Read the Fine Print!</h2>
+	<p id="rules">
+		At the start of the game, a random number will be picked.
+		Click on the cystals to accumulate points.  If you can match the total points, then you Win!  But if you go over, then you lose!
+	</p>
+	<br>
+	<div id="targetText">
+		<div id="match">Match this total points: <span id="randomNumber"></span></div>
+		<br>
+		<div id ="userScore">
+			<div>Your Score: <span id="userScorePrint"></span></div>
+		</div>
+		<br>
+		<div id="totals">
+			<div>Wins: <span id="wins"></span></div> 
+			<div>Losses: <span id="losses"></span></div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+	<script type="text/javascript" src="assets/javascript/crystal_game.js"></script>
+	
+	</body>
+
+</html>

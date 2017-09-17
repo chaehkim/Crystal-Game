@@ -1,0 +1,55 @@
+/* Style Sheet for Crystal Game */
+
+h1 {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 36px;
+    color: #0000FF;
+    text-align: center;
+}
+
+h2 {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+
+p {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10px;
+    color: #777;
+}
+
+#randomNumber {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    color: #DC143C;
+}
+
+body {
+    text-align: center;
+}
+
+#wins {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    color: #006400;
+}
+
+#losses {
+    font-family: Tahoma, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    color: #DC143C;
+}
+
+#images {
+text-align: center;
+}
+
+.crystalstyle {
+    border-radius: 25%;
+    width: 100px;
+    height: 90px;
+}
